@@ -133,3 +133,27 @@ font-size: 20px;
     color: white;
     margin-bottom: 0px;
 }
+.content table{
+    
+    border-color: #8A483C;
+    width: 1000px;
+    margin-top: 100px;
+    margin-left: 200px;
+    text-decoration: none;
+}
+.content table,th{
+    color:#00B4DE
+}
+.content table,td{
+    color: black;
+    text-decoration: none;
+}
+.entry-page{
+    background: #fff;
+    width: 100%;
+    margin-top: 50px;
+}
+.content .entry-page .bt{
+    width: 100px;
+    height: 40px;
+}
