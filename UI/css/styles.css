@@ -157,3 +157,11 @@ font-size: 20px;
     width: 100px;
     height: 40px;
 }
+.entry {
+    border: solid;
+    border-color: black;
+}
+.entry form input[type="text"]{
+    height: 50px;
+    width: 200px;
+}
