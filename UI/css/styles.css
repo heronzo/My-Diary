@@ -1,0 +1,135 @@
+body{
+    height: 100vh;
+}
+.wrapper{
+  background-image: url(/var/www/MyDiary/UI/images/bg15.jpg);
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  display: grid;
+}
+.nav{
+    background-color: #8A483C;
+    margin-top: 0px;
+    height: 50px;
+    width: 100%;
+    text-decoration: solid;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    display: block;
+    font-size: 25px;
+    color:#8A483C;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color:#8A483C;
+    margin-top: 130pt;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+}
+.nav ul{
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+}
+.nav li{
+display: inline-block;
+vertical-align: top;
+margin-left: 10px;
+font-size: 20px;
+}
+.logo{
+    float: left;
+    font-size: 30px;
+    margin-top: 12px;
+    font-family: Courier;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+}
+.nav a:hover{
+    color: #00B4DE;
+}
+.signup-box{
+    width: 300px;
+    height: 400px;
+    background: #8A483C;
+    margin-left: 500px;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+.contact{
+    width: 80px;
+    height: 80px;
+    border-radius: 40%;
+    margin-top: -40px;
+}
+.signup-box form{
+    font-size: 16px;
+    margin-left: 0px;
+    color: white;
+}
+.signup-box form input[type="text"], input[type="password"]{
+    width: 130px;
+    height: 20px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+}
+.bt{
+    width: 130px;
+    margin-top: 10px;
+    background-color: #00B4DE;
+    border-radius: 20px;
+    height: 20px;
+    border:none;
+    outline:none;
+}
+.bt a{
+    text-decoration: none;
+    color:white;
+}
+.bt-h{
+    width: 130px;
+    margin-top: 20px;
+    background-color: #00B4DE;
+    border-radius: 20px;
+    height: 40px;
+    border:none;
+    font-size: 20px;
+    outline:none;
+}
+.bt-h a{
+    text-decoration: none;
+}
+.bt a:hover{
+    color: #8A483C;
+}
+.signup-box h4{
+    color: white;
+}
+.signup-box form p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: left;
+    margin-left: 85px;
+}
+.logo h4{
+    text-align: center;
+    font-size: 30px;
+    font-family: Courier;
+}
+.signup-box form input[type="checkbox"]{
+    color: white;
+    margin-bottom: 0px;
+}
