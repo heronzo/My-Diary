@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            MyDiary
+        </title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    </head>
+    <body>
+        <div class="wrapper">
+                {% include 'includes/header.html'%}
+            <div class="content">
+                {%block body%}
+                {%endblock%}
+            </div>
+                {% include 'includes/footer.html'%}
+        </div>
+    </body>
+</html>

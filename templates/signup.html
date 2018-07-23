@@ -1,0 +1,20 @@
+       {% extends 'layout.html'%}
+       {% block body%}
+            <div class="content">
+                <div class="signup-box">
+                    <img src="{{url_for('static',filename='images/cont.jpeg')}}" class="contact">
+                    <h4>Sign Up</h4>
+                    <form>
+                        <p>Email:</p>
+                        <input type="text" name=""><br>
+                        <p>Username:</p>
+                        <input type="text" name=""><br>
+                        <p>Input Password</p>
+                        <input type="password" name=""><br>
+                        <p>Confirm Password</p>
+                        <input type="password" name=""><br>
+                    </form>
+                    <button class="bt"><a href="{{url_for('login')}}">Submit</a></button>
+                </div>
+            </div>
+        {% endblock %}

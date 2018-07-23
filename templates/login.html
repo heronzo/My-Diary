@@ -1,0 +1,17 @@
+{% extends 'layout.html'%}
+{% block body %}
+                <div class="signup-box">
+                    <img src="{{url_for('static',filename='images/cont.jpeg')}}" class="contact">
+                    <h4>Login</h4>
+                    <form>
+                        <p>Username:</p>
+                        <input type="text" name=""><br>
+                        <p>Input Password</p>
+                        <input type="password" name=""><br>
+                        <input type="checkbox">Remember Me
+                    </form>
+                    <ion-checkbox>Remember me</ion-checkbox><br>
+                    <button class="bt"><a href="{{url_for('entries')}}">Login</a></button>
+
+                </div>
+{% endblock %}                
